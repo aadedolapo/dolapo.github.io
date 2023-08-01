@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Dolapo's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>DOLAPO ADEBO<br />
+				PORTFOLIO</h1>
+			<p>
+				Data Scientist/ML Engineer with proficiency working with Python and its ecosystems, <br />
+				SQL, Excel, and Power BI. Currently doing his Masters in Data Science at The Manchester Metropolitan
+				University, Manchester, United Kingdom.<br />
+				A strong business professional with a Bachelor of Science in Actuarial Science, <br />
+				driven by a passion for data analysis, forecasting, and visualization for strategic business
+				decision-making.<br />
+				Prepared to take on new initiatives as an individual as well as part of a team, <br />
+				utilizing data science/ML skills to solve problems. 💪🏾 <br />
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">PROJECTS</a></li>
+
+				<li><a
+						href="https://drive.google.com/file/d/1IiNzHClWYzSq7Sisqr7QMBixMeVPQgzW/view?usp=sharing">Resume</a>
+				</li>
+				<li><a href="https://medium.com/@theadedolapo">Medium</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://twitter.com/theadedolapo" class="icon brands fa-twitter"><span
+							class="label">Twitter</span></a></li>
+
+				<li><a href="https://www.linkedin.com/in/dolapoadebo/" class="icon brands fa-linkedin"><span
+							class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/aadedolapo" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://github.com/aadedolapo/sentence-generator-for-indigenous-nigerian-language.git">
+							CAR PRICE PREDICTION
+						</a></h2>
+					<p>In this project, a dataset of anonymized vehicle adverts was processed for machine learning.
+						Missing values in the Year_of_registration and Reg_Code columns were filled using web scraping
+						and mapping. Outliers in Mileage and Price were capped and handled accordingly. Categorical
+						encoding was applied to various columns, and feature engineering techniques, including creating
+						new columns and using polynomial features, were implemented.<br />
+						Feature selection was performed using Recursive Feature Elimination with Cross Validation(RFECV)
+						The Catboost model achieved the best overall performance, with a training score of 97.5%, RMSE
+						of £2344.412, and R-squared of 93.0%.<br />
+						A true vs. predicted analysis revealed that the model performed well for lower-priced cars but
+						had larger residuals for higher-priced ones. SHAP (SHapley Additive exPlanations) was used for
+						global and local explanations of the model's predictions.<br />
+						<b>WEB APP: <a href="https://huggingface.co/spaces/theadedolapo/Car_price_prediction/">CAR PRICE
+								PREDICTION</a></b><br />
+					</p>
+				</header>
+				<a href="https://github.com/aadedolapo/Car-Price-Prediction.git" class="image main"><img
+						src="images/cars.jpg" alt="" style="align-content:center;height:450px;" /></a>
+				<ul class="actions special">
+					<li><a href="https://github.com/aadedolapo/Car-Price-Prediction.git" class="button large">View
+							Project</a></li>
+				</ul>
+			</article>
+
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://github.com/aadedolapo/sentence-generator-for-indigenous-nigerian-language.git">
+							YORUBA PROVERB GENERATOR USING NEURAL NETWORK
+						</a></h2>
+					<p>I lead a team of 4 Data Scientist in building an NLG project. The Yoruba proverbs generator app
+						uses a model that takes in a keyword or phrase in Yoruba language and generates a proverb in
+						Yoruba language from the given keyword or phrase. We took into consideration, homonyms and
+						language intonations to help the model generate a more readable proverb. In addition, using the
+						deep-translator library, I added google translator API to help translate the generated Yoruba
+						proverb to English Language for non-Yoruba readers.<br />Major Tools used: Python (Pandas,
+						NumPy, Seaborn, TensorFlow, NLTK, Streamlit).<br />
+						<b>WEB APP: <a
+								href="https://aadedolapo-sentence-generator-for-indigenous-nigeria-app-8vkc1t.streamlitapp.com/">YORUBA
+								PROVERB GENERATOR APP</a></b><br />
+					</p>
+				</header>
+				<a href="https://github.com/aadedolapo/sentence-generator-for-indigenous-nigerian-language.git"
+					class="image main"><img src="images/sentence.jpg" alt=""
+						style="align-content:center;height:450px;" /></a>
+				<ul class="actions special">
+					<li><a href="https://github.com/aadedolapo/sentence-generator-for-indigenous-nigerian-language.git"
+							class="button large">View Project</a></li>
+				</ul>
+			</article>
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://github.com/aadedolapo/Movie-Genre-Prediction-App.git"> MOVIE GENRE PREDICTION
+							PROJECT
+						</a></h2>
+					<p>An NLP project, where I built a movie genre prediction app using <b>sklearn’s
+							OneVsRestClassifier()</b> in addition to <b>LogisticRegressionclassifier()</b> to solve this
+						as a binary relevance problem and then deployed the model to a web app using flask and Heroku.
+						It was a MultiLabel classification problem, I used <b>sklearn's MultiLabelBinarizer()</b>to
+						One-hot Encode the target variable. Created a text-cleaning function that removes punctuations,
+						special characters, extra spaces, StopWords, and performing stemming using
+						<b>SnowBallStemmer()</b> on the plot text. <b>F1Score</b> was the metric used. Created an
+						inference function that is able to take in a movie plot in raw form as input and does the
+						necessary steps to eventually generate genre tag(s). Major Tools used: Python (Pandas, NumPy,
+						Seaborn, Sci-kit Learn, NLTK, Flask, and Heroku).<br />
+						<b>WEB APP: <a href="https://movie-genre-prediction-app.herokuapp.com">MOVIE GENRE PREDICTION
+								APP</a>.</b><br />
+					</p>
+				</header>
+				<a href="https://github.com/aadedolapo/Movie-Genre-Prediction-App.git" class="image main"><img
+						src="images/movie-collage.png" alt="" style="align-content:center;height:450px;" /></a>
+				<ul class="actions special">
+					<li><a href="https://github.com/aadedolapo/Movie-Genre-Prediction-App.git" class="button large">View
+							Project</a></li>
+				</ul>
+			</article>
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://github.com/aadedolapo/House-Prices-Prediction-Model"> HOUSE PRICE PREDICITON
+							PROJECT
+						</a></h2>
+					<p>Built an end-to-end machine learning project for predicting house prices for rent in Lagos State,
+						Nigeria. Scraped the data from a real estate website using <b>BeautifulSoup and Requests
+							libraries.</b> Performed EDA, data wrangling and cleaning. Built a predictive model with
+						various supervised model, ended up using the <b>RandomForestRegressor()</b> model beacuse it
+						gave the best accuracy. Deployed the model to streamlit for production. Tools used: Python
+						(Pandas, NumPy, Seaborn, Matplotlib, Sci-kit Learn, and Streamlit).<br />
+						<b>WEB APP: <a
+								href="https://aadedolapo-house-prices-prediction-model-webapp-fih4un.streamlitapp.com/">HOUSE
+								PRICE PREDICTION APP</a>.</b><br />
+					</p>
+				</header>
+				<a href="https://github.com/aadedolapo/House-Prices-Prediction-Model.git" class="image main"><img
+						src="images/apartments.jpg" alt="" style="align-content:center;height:450px;" /></a>
+				<ul class="actions special">
+					<li><a href="https://github.com/aadedolapo/House-Prices-Prediction-Model.git"
+							class="button large">View Project</a></li>
+				</ul>
+			</article>
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://github.com/aadedolapo/Credo-Social-Payment-Hackathon.git"> Credo Social Payment
+							Hackathon
+						</a></h2>
+					<p>
+					<p>I worked together with a team of 5 consisting of data scientists for this hackathon. We built a
+						product recommendation system for a social commerce store using an item-based collaborative
+						filtering model algorithm where cosine similarity was the metric used. Our solution was also
+						deployed to the streamlit cloud. Tools used: Python(Pandas, NumPy, Seaborn, Sci-kit learn, and
+						Streamlit).<br />
+						<b>WEB APP:<a
+								href="https://aadedolapo-credo-social-payment-hackathon-app-puwgxd.streamlitapp.com/">PRODUCT
+								RECOMMENDATION ENGINE</a></b><br />
+					</p>
+				</header>
+				<a href="https://github.com/aadedolapo/Credo-Social-Payment-Hackathon.git" class="image main"><img
+						src="images/Hackathon.jpg" alt="" style="align-content:center;height:450px;" /></a>
+				<ul class="actions special">
+					<li><a href="https://github.com/aadedolapo/Credo-Social-Payment-Hackathon.github"
+							class="button large">View Project</a></li>
+				</ul>
+			</article>
+
+
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+
+						<h2><a href="https://github.com/aadedolapo/Dominos-Pizza-Sales-Analysis.git">EXPLORATORY DATA
+								ANALYSIS WITH PYTHON<br />
+							</a></h2>
+					</header>
+					<a href="https://github.com/aadedolapo/Dominos-Pizza-Sales-Analysis.git" class="image fit"><img
+							src="images/dominos.png" alt="" /></a>
+					<p>Performed Exploratory analysis using python to explore Dominos Pizza Sales for a particular
+						period. Data was gotten from LinkedIn.
+						Data consists of 5000 sales entries. Exploratory analysis was done using pandas, numpy,
+						matplotlib and seaborn libraries.</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/aadedolapo/Dominos-Pizza-Sales-Analysis.git" class="button">View
+								Project</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<header>
+
+						<h2><a
+								href="https://github.com/aadedolapo/SCRAPING-REAL-ESTATE-PROPERTIES-AND-CREATING-VISUALIZATIONS.git">WEB
+								SCRAPING WITH BEAUTIFULSOUP & REQUESTS <br />
+							</a></h2>
+					</header>
+					<a href="https://github.com/aadedolapo/SCRAPING-REAL-ESTATE-PROPERTIES-AND-CREATING-VISUALIZATIONS.git"
+						class="image fit"><img src="images/beautifulsoup.jpg" alt="" /></a>
+					<p>I decied to improve my python skills with this web scraping project. Scraped over 2500 listings
+						of houses for rent in Lagos, Nigeria from a real estate website using BeautifulSoup and Requests
+						libraries. Cleaned the data and stored it in a database.
+						Performed some exploratory analysis on the dataset using Seaborn and Matplotlib libraries to
+						plot some visualizations.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/aadedolapo/SCRAPING-REAL-ESTATE-PROPERTIES-AND-CREATING-VISUALIZATIONS.git"
+								class="button">View Project</a></li>
+					</ul>
+				</article>
+
+			</section>
+
+
+			<!-- Footer -->
+			<footer id="footer">
+
+				<section class="split contact">
+					<section class="alt">
+						<h3>Location</h3>
+						<p>Manchester, United Kingdom.</p>
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p>+44(0) 7769 986618</p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto: kingsleyadebo@gmail.com">kingsleyadebo@gmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons">
+							<li><a href="https://twitter.com/theadedolapo" class="icon brands fa-twitter"><span
+										class="label">Twitter</span></a></li>
+
+							<li><a href="https://www.linkedin.com/in/dolapoadebo/" class="icon brands fa-linkedin"><span
+										class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/aadedolapo" class="icon brands fa-github"><span
+										class="label">GitHub</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul>
+					<li>&copy; Untitled</li>
+					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
